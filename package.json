@@ -1,6 +1,6 @@
 {
   "name": "aws-react-stack",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "bin": {
     "aws-react-stack": "bin/aws-react-stack.js"
   },
