@@ -1,15 +1,25 @@
 {
   "name": "aws-react-stack",
   "version": "0.0.4",
-  "bin": {
-    "aws-react-stack": "bin/aws-react-stack.js"
-  },
+  "descript": "",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
     "build": "tsc",
-    "watch": "tsc -w",
-    "test": "jest",
-    "cdk": "cdk"
+    "prepare": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tothalex/aws-react-stack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tothalex/aws-react-stack/issues"
+  },
+  "homepage": "https://github.com/tothalex/aws-react-stack#readme",
   "devDependencies": {
     "@types/node": "10.17.27",
     "@typescript-eslint/eslint-plugin": "^5.9.1",
