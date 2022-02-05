@@ -6,7 +6,7 @@ import { createBucket } from './bucket'
 import { createDistribution } from './distribution'
 import { createDeployment } from './deployment'
 
-export class AwsReactStackStack extends Stack {
+export default class AwsReactStackStack extends Stack {
   constructor(
     scope: Construct,
     id: string,
